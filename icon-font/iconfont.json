@@ -1,0 +1,58 @@
+{
+  "id": "1906673",
+  "name": "黑马后台",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1016754",
+      "name": "头像",
+      "font_class": "portrait",
+      "unicode": "e6da",
+      "unicode_decimal": 59098
+    },
+    {
+      "icon_id": "1667263",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "2668381",
+      "name": "商品",
+      "font_class": "shangpin",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "7642354",
+      "name": "报表",
+      "font_class": "baobiao",
+      "unicode": "e71b",
+      "unicode_decimal": 59163
+    },
+    {
+      "icon_id": "8153859",
+      "name": "体积测量",
+      "font_class": "volumemeasurement",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "12760697",
+      "name": "password",
+      "font_class": "password",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "14559282",
+      "name": "单据",
+      "font_class": "danju",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    }
+  ]
+}
