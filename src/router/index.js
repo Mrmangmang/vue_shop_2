@@ -3,6 +3,11 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
+const originalPush = VueRouter.prototype.push
+VueRouter.prototype.push = function push(location) {
+    return originalPush.call(this, location).catch(err => err)
+}
+
   const routes = [
     {
       path:'/',
@@ -14,7 +19,18 @@ Vue.use(VueRouter)
     },
       {
           path:'/home',
-          component:()=>import('../components/Home')
+          component:()=>import('../components/Home'),
+          redirect: '/welcome',
+          children:[
+              {
+                  path:'/welcome',
+                  component:()=>import('../components/Welcome')
+              },
+              {
+                  path:'/users',
+                  component:()=>import('../components/Users')
+              }
+          ]
       }
 ]
 
